@@ -64,7 +64,7 @@ public class DiscountCalculator {
 
 * Input Format: 
 The input file is expected to contain records where each line has the following format:
-<customerName> <customerId> <originalPrice>
+ <customerName> <customerId> <originalPrice>
 
 The Mapper applies a 10% discount to prices greater than 400 and outputs the customer ID as the key and customer details as the value.
 The Reducer outputs the key-value pairs without modification.
