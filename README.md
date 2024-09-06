@@ -81,7 +81,7 @@ The program utilizes a breadth-first search (BFS) algorithm to traverse a graph 
      *  Outputs Results: The program outputs the customer ID, customer name, original purchase price, and the discounted price for each customer.
   In essence, this program is used to perform bulk processing of large datasets distributed across multiple nodes, calculating discounts and summarizing the data efficiently with Hadoop.
 # Process of execution:
-* Creating directory da2 in hdfs. Copying input file from local to hdfs. Runnig command.
+* Creating directory DA1 in hdfs. Copying input file from local to hdfs. Runnig command.
   
   ![image](https://github.com/user-attachments/assets/d082859b-698c-47bd-91e3-7d4f0948c1f7)
 
@@ -91,12 +91,12 @@ The program utilizes a breadth-first search (BFS) algorithm to traverse a graph 
   ![image](https://github.com/user-attachments/assets/3ba6b683-8237-4c81-883c-76f04a87782c)
 
   
-* The data present in da2 folder.
+* The data present in DA1 folder.
   
   ![image](https://github.com/user-attachments/assets/6263c072-b98f-43a6-a45a-560a7af7252f)
 
   
-* The data present in /da2/output folder.
+* The data present in /DA1/output folder.
   
   ![image](https://github.com/user-attachments/assets/a5c4ef83-6b9b-4180-84a6-695b295e3c75)
 
@@ -104,7 +104,8 @@ The program utilizes a breadth-first search (BFS) algorithm to traverse a graph 
 * The data in part-r-00000 and viewing it.
   
   ![image](https://github.com/user-attachments/assets/b6c3e76c-bb3a-4b74-929c-300f21c8ec14) 
-# Ouput
+
+# Output
 Output file is uploaded in the repository . FILENAME : Hadoop Outputfile
 
 * Similar kindof Output will be shown :
