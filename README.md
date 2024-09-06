@@ -60,7 +60,7 @@ public class DiscountCalculator {
 
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
-}
+} 
 
 * Input Format: 
 The input file is expected to contain records where each line has the following format:
@@ -74,3 +74,36 @@ The Main method configures the Hadoop job, specifies input/output paths, and run
 # How It Works??
 For each customer, the program prints their name, ID, and amount spent. If the amount spent exceeds $200, the program calculates a 10% discount on the total amount and displays the discounted amount in parentheses.
 The program utilizes a breadth-first search (BFS) algorithm to traverse a graph representing customer relationships. Each node in the graph represents a customer, and the edges represent connections between customers. The BFS algorithm starts from a specified customer node (e.g., customer with ID 0) and explores neighboring customers in a breadth-first manner. During traversal, the program prints customer information and applies discounts as needed.
+* The general purpose of the program is to process customer purchase data and calculate discounts based on specific conditions using Hadoop's MapReduce framework. Specifically, the program:
+     *  Reads Customer Data: It takes input where each line contains a customer’s name, ID, and the price of their purchase.
+     *  Applies a Discount: If a customer’s purchase price is greater than 400, it applies a 10% discount to that price.
+     *  Outputs Results: The program outputs the customer ID, customer name, original purchase price, and the discounted price for each customer.
+  In essence, this program is used to perform bulk processing of large datasets distributed across multiple nodes, calculating discounts and summarizing the data efficiently with Hadoop.
+# Process of execution:
+* Creating directory da2 in hdfs. Copying input file from local to hdfs. Runnig command.
+  
+  ![image](https://github.com/user-attachments/assets/d082859b-698c-47bd-91e3-7d4f0948c1f7)
+
+  
+* Execution of code,Output file view.
+  
+  ![image](https://github.com/user-attachments/assets/3ba6b683-8237-4c81-883c-76f04a87782c)
+
+  
+* The data present in da2 folder.
+  
+  ![image](https://github.com/user-attachments/assets/6263c072-b98f-43a6-a45a-560a7af7252f)
+
+  
+* The data present in /da2/output folder.
+  
+  ![image](https://github.com/user-attachments/assets/a5c4ef83-6b9b-4180-84a6-695b295e3c75)
+
+  
+* The data in part-r-00000 and viewing it.
+  
+  ![image](https://github.com/user-attachments/assets/b6c3e76c-bb3a-4b74-929c-300f21c8ec14) 
+# Ouput
+Output file is uploaded in the repository . FILENAME : Hadoop Outputfile
+
+
