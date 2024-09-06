@@ -64,6 +64,7 @@ public class DiscountCalculator {
 
 * Input Format: 
 The input file is expected to contain records where each line has the following format:
+
  ![image](https://github.com/user-attachments/assets/3db592bb-ac2c-43b8-b584-257067d6be83)
 
 
@@ -106,4 +107,10 @@ The program utilizes a breadth-first search (BFS) algorithm to traverse a graph 
 # Ouput
 Output file is uploaded in the repository . FILENAME : Hadoop Outputfile
 
+*Similar kindof Output will be shown :
 
+![image](https://github.com/user-attachments/assets/e1d11ed3-caa5-46cf-902f-ee2f4dba91de)
+
+
+* The final output of the DiscountCalculator program, when run on a Hadoop cluster, is a file or set of files containing lines of text. Each line in the output represents a single customer's purchase details, formatted to include the customer's ID, their name, the original price they spent, and the discounted price (if any discount was applied).
+* This output is directly useful for administrative or customer service purposes, providing a clear and concise record of billing adjustments based on predefined spending criteria. Each line effectively communicates how much each customer spent and what they are ultimately charged after applicable discounts. This makes the program particularly valuable for retail businesses looking to automate discount processes based on customer spending patterns.
