@@ -62,7 +62,7 @@ public class DiscountCalculator {
     }
 }
 
-* Input Format: *
+* Input Format: 
 The input file is expected to contain records where each line has the following format:
 <customerName> <customerId> <originalPrice>
 
