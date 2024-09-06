@@ -107,7 +107,7 @@ The program utilizes a breadth-first search (BFS) algorithm to traverse a graph 
 # Ouput
 Output file is uploaded in the repository . FILENAME : Hadoop Outputfile
 
-*Similar kindof Output will be shown :
+* Similar kindof Output will be shown :
 
 ![image](https://github.com/user-attachments/assets/e1d11ed3-caa5-46cf-902f-ee2f4dba91de)
 
